@@ -1,0 +1,19 @@
+{
+  "name": "@book-print/markdown",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "dependencies": {
+    "@book-print/shared": "1.0.0",
+    "@types/markdown-it": "^14.2.0",
+    "markdown-it": "^15.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,53 @@
+Book Print Source-Available License 1.0
+
+Copyright 2026 Coherence Wizard.
+
+This license covers Book Print's original plugin code. It does not replace
+third-party licenses or grant rights to Obsidian. Subject to the terms below,
+Coherence Wizard grants the following permissions:
+
+1. Anyone may install and use Book Print, including in a business. Users may
+   print, distribute, and sell their own books. Their manuscripts, artwork,
+   and exported PDFs remain theirs; this software license imposes no resale
+   restriction on those outputs.
+
+2. Anyone may inspect the source, keep backup copies, make private
+   modifications for their own use, and submit suggested changes to Coherence
+   Wizard. Contributors retain ownership of their contributions; any
+   contribution terms must be agreed separately.
+
+3. Obsidian and GitHub may host, index, cache, and distribute official releases
+   and source made available by Coherence Wizard for installation, review,
+   and security analysis. GitHub users may make the forks needed for
+   inspection and proposed contributions.
+
+4. Commercial redistribution of the plugin or modified versions,
+   incorporating its original code into a product sold to others, or
+   operating a competing hosted printing service using that code requires
+   advance written permission from Coherence Wizard. Merely using the plugin
+   internally at work or selling books produced with it does not require
+   extra code-license permission.
+
+5. Public distribution of independently branded or modified versions also
+   requires written permission. Private study, private modifications, and
+   contribution-only forks under paragraph 2 or 3 remain allowed.
+
+6. Copies must retain this license and applicable attribution. Book Print and
+   Coherence Wizard branding cannot be used to suggest endorsement of another
+   product without permission.
+
+7. The license applies only to rights Coherence Wizard holds. Bundled
+   open-source dependencies and fonts remain available under their own
+   licenses. Independently written software is not restricted by these terms.
+
+8. The software is supplied without a guarantee of fitness, availability,
+   error-free behavior, or print results. To the extent allowed by applicable
+   law, its authors are not liable for losses caused by using it. This code
+   license does not replace purchase terms or mandatory consumer rights for
+   physical orders.
+
+9. Rights outside these express permissions are reserved. Permission
+   requests: josephrastovich@gmail.com.
+
+This is a source-available license with commercial restrictions, not an OSI
+open-source license.

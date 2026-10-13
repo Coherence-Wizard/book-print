@@ -1,0 +1,11 @@
+node_modules/
+dist/
+work/
+*.tsbuildinfo
+main.js
+/styles.css
+.env*
+.dev.vars*
+data.json
+*.pdf
+*.png

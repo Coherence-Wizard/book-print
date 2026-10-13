@@ -1,0 +1,60 @@
+.modal.book-print-modal { width: min(94vw, 1500px); height: 90vh; max-height: 1000px; padding: 16px; overflow: hidden; }
+.book-setup-modal-container { display: flex; flex-direction: column; height: 100%; padding: 0; margin: 0; overflow: hidden; min-height: 0; }
+.book-modal-header { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; padding: 0 24px 12px 0; flex: 0 0 auto; }
+.book-modal-header h2 { margin: 0; font-size: 18px; }
+.book-modal-header span { font-size: 12px; color: var(--text-muted); }
+.book-modal-main { display: grid; grid-template-columns: minmax(0, 42%) minmax(0, 58%); flex: 1; min-height: 0; gap: 16px; }
+.book-editor-panel { display: flex; flex-direction: column; min-height: 0; min-width: 0; gap: 10px; }
+.book-tabs-nav { display: flex; flex-wrap: wrap; gap: 6px; flex-shrink: 0; }
+.book-tabs-nav .active { background: var(--interactive-accent); color: var(--text-on-accent); }
+.book-controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; overflow: auto; min-height: 0; max-height: 44%; padding: 2px 6px 6px 0; }
+.book-editor-panel:has(.book-editor-area.book-hidden) .book-controls { max-height: none; flex: 1; align-content: start; }
+.book-input-group { display: flex; flex-direction: column; min-width: 0; gap: 4px; font-size: 12px; }
+.book-input-group input, .book-input-group textarea, .book-input-group select { width: 100%; min-width: 0; }
+.book-input-group [aria-invalid="true"] { border-color: var(--text-error); }
+.book-input-group:has(textarea), .book-help, .book-price { grid-column: 1 / -1; }
+.book-input-group textarea { min-height: 70px; resize: vertical; }
+.book-checkbox { font-size: 12px; display: flex; gap: 6px; align-items: center; }
+.book-help { font-size: 12px; line-height: 1.5; color: var(--text-muted); margin: 4px 0; }
+.book-editor-area { display: flex; flex-direction: column; flex: 1; min-height: 100px; gap: 8px; }
+.book-editor-toolbar { display: flex; flex-wrap: wrap; gap: 8px; }
+.book-manuscript-input { flex: 1; width: 100%; min-height: 0; resize: none; padding: 12px; font: 13px/1.6 var(--font-monospace); overflow: auto; }
+.book-preview-panel { display: flex; flex-direction: column; min-width: 0; min-height: 0; background: #292929; border-radius: 6px; overflow: hidden; }
+.book-preview-caption { flex-shrink: 0; font-size: 12px; color: #ddd; padding: 8px 12px; margin: 0; }
+.book-pdf-preview { border: none; width: 100%; flex: 1; min-height: 0; background: #292929; }
+.book-hidden { display: none; }
+.book-cover-upload-actions { grid-column: 1 / -1; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.book-cover-upload-actions h3 { margin: 4px 0 0; font-size: 13px; }
+.book-cover-preview-actions { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px; }
+.book-cover-preview-actions button { height: auto; min-height: 32px; white-space: normal; padding: 6px 12px; }
+.book-cover-upload-actions button { width: 100%; height: auto; min-height: 32px; padding: 6px 12px; white-space: normal; }
+.book-cover-gallery { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.book-cover-choice { height: auto; padding: 6px; display: flex; flex-direction: column; gap: 6px; font-size: 12px; }
+.book-cover-choice[aria-pressed="true"] { outline: 2px solid var(--interactive-accent); outline-offset: -1px; }
+.book-cover-swatch { width: 100%; aspect-ratio: 2 / 3; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 16%; text-align: center; white-space: normal; background-size: 27.7778% auto; font-family: Georgia, serif; overflow: hidden; }
+.book-cover-title { max-width: 100%; font-size: clamp(9px, 1vw, 14px); overflow-wrap: anywhere; }
+.book-cover-author { max-width: 100%; font-size: 9px; margin-top: 20%; overflow-wrap: anywhere; }
+.book-warning { color: var(--text-warning); }
+.book-trial-result { padding: 10px; border: 1px solid var(--background-modifier-border); border-radius: 6px; }
+@media (max-width: 900px) { .book-modal-main { grid-template-columns: 1fr; grid-template-rows: minmax(250px, 45%) minmax(220px, 55%); overflow: auto; } .book-modal-header { gap: 6px; } .book-controls { max-height: 42%; } }
+@media (max-width: 500px) { .book-controls { grid-template-columns: 1fr; } .modal.book-print-modal { padding: 10px; } }
+.book-order-policy { grid-column: 1 / -1; margin: 0; padding: 12px; border: 1px solid var(--background-modifier-border); border-radius: 8px; font-size: 12px; }
+.book-order-policy a { overflow-wrap: anywhere; }
+.book-order-policy .book-help { margin-top: 0; }
+.book-cancellation-status { padding: 10px; background: var(--background-secondary); border-radius: 6px; }
+.book-shipping-summary { grid-column: 1 / -1; padding: 12px; border: 1px solid var(--background-modifier-border); border-radius: 8px; min-width: 0; }
+.book-shipping-summary h3 { margin: 0 0 8px; font-size: 14px; }
+.book-shipping-lines { margin: 0 0 12px; white-space: pre-line; font-size: 13px; line-height: 1.5; overflow-wrap: anywhere; }
+.book-shipping-actions, .book-shipping-form-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.book-shipping-actions button, .book-shipping-form-actions button { height: auto; min-height: 32px; white-space: normal; padding: 6px 12px; }
+.book-order-actions { grid-column: 1 / -1; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.book-order-actions button { width: 100%; }
+.book-order-actions .book-help { overflow-wrap: anywhere; }
+.modal.book-shipping-modal { width: min(90vw, 560px); max-height: 85vh; overflow: auto; }
+.book-shipping-form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.book-shipping-form-actions { grid-column: 1 / -1; justify-content: flex-end; margin-top: 6px; }
+@media (max-width: 500px) { .book-shipping-form { grid-template-columns: 1fr; } }
+
+.book-note-picker-list { max-height: 300px; overflow-y: auto; border: 1px solid var(--background-modifier-border); padding: 8px; border-radius: 4px; }
+.book-note-picker-item { display: flex; align-items: center; gap: 8px; padding: 4px 0; }
+.book-cover-swatch { background-color: var(--book-cover-background); background-image: var(--book-cover-texture); color: var(--book-cover-foreground); }

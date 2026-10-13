@@ -1,0 +1,20 @@
+{
+  "name": "@book-print/pdf",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "dependencies": {
+    "@book-print/shared": "1.0.0",
+    "pdf-lib": "^1.17.1",
+    "@book-print/book-layout": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}

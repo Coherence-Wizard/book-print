@@ -1,0 +1,33 @@
+{
+  "name": "book-print",
+  "version": "0.0.2",
+  "private": true,
+  "description": "Book Print desktop plugin for Obsidian",
+  "author": "Coherence Wizard",
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "node": ">=22"
+  },
+  "workspaces": [
+    "apps/obsidian-plugin",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=@book-print/shared && npm run build --workspace=@book-print/markdown && npm run build --workspace=@book-print/book-layout && npm run build --workspace=@book-print/pdf && npm run build --workspace=obsidian-plugin",
+    "lint": "eslint apps/obsidian-plugin/src --max-warnings=0",
+    "test": "node --test test/*.test.mjs",
+    "test:render": "electron test/render-electron.cjs",
+    "check:release": "node scripts/check-release.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.3.3",
+    "eslint": "^9.39.5",
+    "eslint-plugin-obsidianmd": "^0.4.2",
+    "esbuild": "^0.28.2",
+    "electron": "^44.5.1"
+  },
+  "overrides": {
+    "moment": "2.31.0"
+  }
+}
