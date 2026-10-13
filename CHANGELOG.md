@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.3 — MIT license
+
+- Replaced the custom source-available license with the standard MIT License for the public client code.
+- Updated package metadata, documentation, and the license embedded in the installed bundle; third-party licenses remain intact.
+- Added the published Obsidian Community listing and its current review-status link.
+- No runtime behavior changes from 0.0.2.
+
 ## 0.0.2 — review candidate
 
 - Coherence Wizard attribution and the community-compatible `book-print` ID.

@@ -1,7 +1,7 @@
 {
   "id": "book-print",
   "name": "Book Print",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "minAppVersion": "1.14.4",
   "description": "Preview notes as 6 x 9 books, create covers, export PDFs, and order printed copies. Printing and shipping are paid services.",
   "author": "Coherence Wizard",

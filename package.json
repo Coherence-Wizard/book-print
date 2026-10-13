@@ -1,10 +1,10 @@
 {
   "name": "book-print",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "description": "Book Print desktop plugin for Obsidian",
   "author": "Coherence Wizard",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "engines": {
     "node": ">=22"
   },

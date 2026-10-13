@@ -6,7 +6,7 @@ if (process.env.GITHUB_REF_TYPE === 'tag' && process.env.GITHUB_REF_NAME !== man
 assert.deepEqual(manifest, await json('apps/obsidian-plugin/manifest.json'), 'Root and plugin manifests must match.');
 const pkg = await json('package.json');
 assert.equal(pkg.version, manifest.version, 'Package and manifest versions must match.');
-assert.equal(pkg.license, 'SEE LICENSE IN LICENSE');
+assert.equal(pkg.license, 'MIT');
 assert.equal((await json('versions.json'))[manifest.version], manifest.minAppVersion);
 const license = await readFile('LICENSE', 'utf8').catch(() => '');
 if (!license.trim() || /DRAFT|pending author|awaiting.*approval/i.test(license)) throw new Error('Finalize and approve the root LICENSE before publishing.');

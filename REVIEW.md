@@ -1,6 +1,6 @@
 # Review and release guide
 
-Book Print 0.0.2 by Coherence Wizard. Repository: [Coherence-Wizard/book-print](https://github.com/Coherence-Wizard/book-print).
+Book Print 0.0.3 by Coherence Wizard. Repository: [Coherence-Wizard/book-print](https://github.com/Coherence-Wizard/book-print).
 
 ## Build and release
 
@@ -26,7 +26,7 @@ The client uses Obsidian requestUrl and public Vault APIs. Modal cleanup closes 
 
 The official Obsidian ESLint recommended configuration is enabled. A small set of sentence-case exceptions preserves the labels used throughout the interface. The Moment 2.31.0 development dependency override addresses GHSA-4p3w-j4w9-5jqw in the Obsidian type dependency tree; Moment is not bundled.
 
-The original plugin code uses the [Book Print Source-Available License 1.0](LICENSE). Dependencies and fonts retain their respective licenses. Both the original-code license and third-party notices are embedded in the installed bundle.
+The original client code uses the [MIT License](LICENSE). Dependencies and fonts retain their respective licenses. Both the original-code license and third-party notices are embedded in the installed bundle. The separately operated printing backend is outside this repository and license grant.
 
 ## Review scenarios
 
@@ -38,7 +38,11 @@ The original plugin code uses the [Book Print Source-Available License 1.0](LICE
 6. Close or disable the plugin during rendering. Hidden windows must close, and late responses must not open checkout.
 7. Back up plugin data, disable an earlier private build, and import its data into a fresh installation. Check projects, original notes, covers, addresses, and order access. Malformed input must fail without replacing saved data.
 
-## Verification for 0.0.2
+## Verification for 0.0.3
+
+This release changes licensing, release metadata, and documentation. Runtime code is unchanged from 0.0.2. Run the build, lint, client tests, and release checks above to verify the updated bundle and metadata.
+
+## Baseline verification for 0.0.2
 
 - Clean lockfile installation and TypeScript build pass.
 - Official Obsidian ESLint passes with zero warnings.

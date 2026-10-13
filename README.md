@@ -4,7 +4,7 @@ By **Coherence Wizard**. Turn Markdown notes into 6 x 9 inch books with a local 
 
 **Local preview and PDF export are free. Physical printing and shipping are paid services.** Book Print is an independent community plugin and is not affiliated with Obsidian.
 
-This is the **0.0.2 review candidate**, not yet approved or listed in the community directory. The hosted ordering backend is separately operated and is not included in this client repository.
+Book Print has been submitted to the community directory. See the [directory listing](https://community.obsidian.md/plugins/book-print) for its current review and installation status. The hosted ordering backend is separately operated and is not included in this client repository.
 
 ## Requirements
 
@@ -80,6 +80,6 @@ Optional desktop rendering smoke test: run `node node_modules/electron/install.j
 
 ## Licensing and credits
 
-Book Print's original code is covered by the [Book Print Source-Available License 1.0](LICENSE). You may use the plugin personally or in a business, sell your own books, inspect the source, and make private modifications. Commercial redistribution, incorporating the code into a product sold to others, operating a competing printing service using the code, and publicly distributing independently branded or modified versions require written permission from Coherence Wizard. Contribution-only GitHub forks are allowed under the license. This is source-available software with commercial restrictions, not OSI open-source software. Third-party components retain their existing licenses.
+Book Print's original client code is covered by the [MIT License](LICENSE), copyright 2026 Coherence Wizard. You may use, modify, and redistribute it, including commercially, provided the copyright and license notice is retained. Third-party components retain their existing licenses. The separately operated printing backend is not included in this repository or license grant.
 
 Libre Caslon Text is by the Libre Caslon Text Project Authors, under the SIL Open Font License 1.1. Bundled JavaScript and country/region data credits and complete licenses are in [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt), also included in the installed bundle. No rights to the user's manuscript or artwork are claimed by the software license.

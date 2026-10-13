@@ -13,5 +13,6 @@
   },
   "dependencies": {
     "country-region-data": "4.1.0"
-  }
+  },
+  "license": "MIT"
 }
