@@ -42,7 +42,7 @@ Checkout shows the quoted price and estimated delivery. After payment, use **Che
 
 Order confirmation is sent to the checkout email. Automated shipping-update emails are not currently provided by Book Print; check order status or contact support. Estimates are not guaranteed delivery dates.
 
-Support: [josephrastovich@gmail.com](mailto:josephrastovich@gmail.com). Include your order ID, but never card information or private order-access links in a public issue.
+Support: [hello@coherencewizard.com](mailto:hello@coherencewizard.com). Include your order ID, but never card information or private order-access links in a public issue.
 
 ## Network, privacy, and file access
 

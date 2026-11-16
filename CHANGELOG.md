@@ -1,3 +1,8 @@
+## 0.0.4
+
+- Updated the plugin support email and documentation to hello@coherencewizard.com.
+- Book format and printing options are unchanged.
+
 # Changelog
 
 ## 0.0.3 — MIT license

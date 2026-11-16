@@ -1,6 +1,6 @@
 # Book Print privacy disclosure
 
-Review candidate dated October 12, 2026. Operator and support: Coherence Wizard, [josephrastovich@gmail.com](mailto:josephrastovich@gmail.com).
+Review candidate dated October 12, 2026. Operator and support: Coherence Wizard, [hello@coherencewizard.com](mailto:hello@coherencewizard.com).
 
 ## Local work
 
